@@ -24,13 +24,13 @@ for (let i = 0; i < blood_drop.length; i++) {
         let h = Math.round(Math.random() * 200);
         blood_drop[i].setAttribute("x", `${m}%`)
         blood_drop[i].setAttribute("y", `${h}vh`)
-    }, 1000);
+    }, 100);
     setInterval(() => {
         let m = Math.round(Math.random() * 350);
         let h = Math.round(Math.random() * 200) + 180;
         blood_drop_opac[i].setAttribute("x", `${m}%`)
         blood_drop_opac[i].setAttribute("y", `${h}vh`)
-    }, 1000);
+    }, 100);
 }
 
 setInterval(() => {
